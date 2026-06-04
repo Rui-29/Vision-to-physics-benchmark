@@ -6,10 +6,10 @@ Additionally, this repository provides the evaluation scripts and prompt pipelin
 
 ## Repository Structure
 
-* **/Sample_Data:** Contains representative synthetic video clips generated from the UE5 pipeline, alongside their corresponding ground truth JSON vectors.
+* **`/Sample_Data:** Contains representative synthetic video clips generated from the UE5 pipeline, alongside their corresponding ground truth JSON vectors.
   * `/Videos`: Representative `.mp4` video clips.
   * `/Vectors`: matching `.json` files containing the evaluation vectors, including 3D spatial coordinates.
-* **/Scripts:** Contains the core logic required to reproduce the VLM evaluation pipeline and the CNN cross-validation splits.
+* **`/Scripts:** Contains the core logic required to reproduce the VLM evaluation pipeline and the CNN cross-validation splits.
   * `annotate_clip_gemini_updated.py`: Contains the exact chain-of-thought prompt templates, JSON schemas, and ASHRAE mapping dictionaries used for the Gemini API.
   * `batch_annotate_gemini.py`: The batch execution script for processing multiple videos.
   * `preprocess_data.py`: Prepares the raw JSON outputs into standardized numeric arrays for evaluation.
