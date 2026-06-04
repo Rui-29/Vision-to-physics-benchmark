@@ -1,6 +1,6 @@
 # Vision-to-Physics (V2P) framework
 
-This repository contains the minimal reproducibility package for the **Vision-to-Physics (V2P)** framework, which bridges generative occupant modeling with building thermodynamics. Inspired by the BEDLAM dataset, this framework leverages SMPL-X body models and AMASS motion sequences within Unreal Engine 5 to render highly realistic synthetic occupant videos. 
+This repository contains the minimal reproducibility package for the **Vision-to-Physics (V2P)** framework, which bridges generative occupant modeling with building thermodynamics. Inspired by the [BEDLAM](https://bedlam.is.tue.mpg.de/) dataset, this framework leverages [SMPL-X](https://smpl-x.is.tue.mpg.de/) body models and [AMASS motion sequences](https://amass.is.tue.mpg.de/) within Unreal Engine 5 to render highly realistic synthetic occupant videos. 
 
 Additionally, this repository provides the evaluation scripts and prompt pipelines used to benchmark zero-shot Vision-Language Models (VLMs) against supervised Convolutional Neural Networks (CNNs) for extracting physics-based thermodynamic metrics (Metabolic Rate [MET] and Clothing Insulation [CLO]) from these visual inputs.
 
